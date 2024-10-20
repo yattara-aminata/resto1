@@ -1,0 +1,88 @@
+*{
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+   /* box-sizing: border-box;
+   background-image:url(hamburger-photorealiste_23-2151432660.avif); */
+}
+.container{
+    position: relative;
+    width: 1000px;
+    height: 150px;
+    padding: 100px;
+    margin: 150px;
+    background-color: brown;
+    display:flex;
+    box-shadow: 10px 7px 8px black;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+position:relative;
+background-color:rgb(183, 63, 19);
+font-size:medium;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 700;
+font-style: italic;
+width: 1160px;
+height: 50px;
+margin-left: 150px;
+padding: 20px;
+word-spacing: 50px;
+justify-content: center;
+align-items: center;
+}
+
+a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 150px;
+}
+a:hover{
+    color: brown;
+}
+h1{
+    margin-left: 150px;
+    color: black;   
+}
+.left{
+    position: relative;
+    background-color: aqua;
+    width: 500px;
+    height: 350px;
+    right: 350px;
+}
+/*.right{
+    position: relative;
+    background-color: aliceblue;
+    width: 500px;
+    height: 350px;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+}*/
+.right{
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    left: 650px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+.boutton{
+    color: black;
+    background: green;
+}
+.boutton1{
+    color: black;
+    background: rgb(176, 9, 9);
+}
